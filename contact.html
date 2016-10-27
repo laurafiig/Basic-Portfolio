@@ -10,12 +10,12 @@
 		<section class=myname>
 			<h1>Laura Fiig</h1>
 		</section>
-		<a href="index.html">About</a>
-		<a href="portfolio.html">Portfolio</a>
-		<a href="contact.html">Contact</a>
+		<a class=pages href="contact.html">Contact</a>
+		<a class=pages href="portfolio.html">Portfolio</a>
+		<a class=pages href="index.html">About</a>
 	</header>
 		
-	<article>
+	<article class=contact>
 		<h2>Contact</h2>
 		<hr>
 		<form>
@@ -23,29 +23,36 @@
   			<!--<form action='mailto:laurafiig@gmail.com' method="post" enctype="text/plain">-->
   			Name
   			<br>
-  			<input type="text" name="Name" size="50">
+  			<br>
+  			<input type="text" name="Name" size="80">
+  			<br>
   			<br>
   			Email
   			<br>
-  			<input type="text" name="Email" size="50">
+  			<br>
+  			<input type="text" name="Email" size="80">
+  			<br>
   			<br>
   			Message
   			<br>
-  			<textarea name="Message" rows="8" cols="50"></textarea>
   			<br>
-  			<input type="submit"> <!--value="SUBMIT EMAIL TO: laurafiig@gmail.com"> <a href="mailto:laurafiig@gmail.com">-->
+  			<textarea name="Message" rows="8" cols="72"></textarea>
+  			<br>
+  			<br>
+  			<input class=submit type="submit"> <!--value="SUBMIT EMAIL TO: laurafiig@gmail.com"> <a href="mailto:laurafiig@gmail.com">-->
 		</form>
 	</article>
 		
 	<aside>
-		<h2>Connect with Me</h2>
-		<a href="https://github.com/laurafiig" target="_blank">
+		<h3>Connect with Me</h3>
+		<br>
+		<a class=icons href="https://github.com/laurafiig" target="_blank">
   			<img src="assets/images/GitHub-Mark-64px.png" alt="GitHub" style="border:0;">
 		</a>
-		<a href="https://www.linkedin.com/in/laura-fiig-713740111" target="_blank">
+		<a class=icons href="https://www.linkedin.com/in/laura-fiig-713740111" target="_blank">
   			<img src="assets/images/In-2C-66px-R.png" alt="LinkedIn" style="border:0;">
 		</a>
-		<a href="http://stackoverflow.com/users/6951392/laura-fiig" target="_blank">
+		<a class=icons href="http://stackoverflow.com/users/6951392/laura-fiig" target="_blank">
   			<img src="assets/images/so-icon.png" alt="Stack Overflow" style="width:60px;height:60px;border:0;">
 		</a>
 	</aside>

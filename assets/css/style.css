@@ -1,0 +1,124 @@
+body {
+	width: 960px;
+	background-image: url("../images/cork-wallet.png");
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777
+	font-size: 12px;
+}
+
+header {
+	font-size: 8px;
+	background-color: #ffffff;
+}
+
+.myname {
+	background-color: #4aaaa5;
+	padding: 25px 0;
+	margin-left: 50px;
+	width: 20%; 
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 28px;
+	color: #ffffff
+}
+
+.pages {
+	padding: 0 25px;
+	float: right
+}
+
+.about {
+	width: 550px; 
+	background-color: #ffffff;
+	border: 5px solid #dddddd;
+	padding: 25px;
+	margin-left: 50px;
+}
+
+.mypic {
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+.contact {
+	width: 550px; 
+	background-color: #ffffff;
+	border: 5px solid #dddddd;
+	padding: 25px;
+	margin-left: 50px;
+}
+
+.submit {
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+
+.portfolio {
+	width: 550px; 
+	background-color: #ffffff;
+	border: 5px solid #dddddd;
+	padding: 25px;
+	margin-left: 50px;
+}
+
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 22px; 
+	color: #4aaaa5;
+}
+
+/*https://css-tricks.com/text-blocks-over-image/*/
+.projectlink { 
+   position: relative; 
+   width: 100%;
+   padding: 10px;
+}
+
+h4 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 16px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+    text-align: center;
+	padding: 10px;
+	position: absolute; 
+    top: 170px; 
+    left: 0; 
+    width: 180px;
+}
+
+aside {
+	width: 220px; 
+	background-color: #ffffff;
+	padding: 25px; 
+	border: 5px solid #dddddd;
+	float: right;
+}
+
+h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 18px;
+	text-align: center; 
+	color: #4aaaa5;
+}
+
+.icons {
+	padding: 2px;
+}
+
+footer {
+	background-color: #666666;
+	font-size: 8px;
+	text-align: center;
+	color: #ffffff;
+	padding: 25px 0;
+	border-top: 5px solid #4aaaa5;
+	margin: 0;
+		}
+
+
+
+
