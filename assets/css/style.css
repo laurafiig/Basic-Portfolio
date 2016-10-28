@@ -7,16 +7,17 @@ body {
 }
 
 header {
-	font-size: 8px;
 	background-color: #ffffff;
+	height: 77px;
 }
 
 .myname {
 	background-color: #4aaaa5;
 	padding: 25px 0;
-	margin-left: 50px;
+	margin-left: 45px;
 	width: 20%; 
 	text-align: center;
+	float: left;
 }
 
 h1 {
@@ -26,16 +27,23 @@ h1 {
 }
 
 .pages {
-	padding: 0 25px;
-	float: right
+	padding: 35px 25px;
+	float: right;
+	font-size: 12px;
 }
 
-.about {
+.pages:hover {
+	background-color: #4aaaa5; 
+	}
+
+article {
 	width: 550px; 
 	background-color: #ffffff;
 	border: 5px solid #dddddd;
 	padding: 25px;
-	margin-left: 50px;
+	margin: 25px 25px 25px 40px;
+	clear: both;
+	float: left;
 }
 
 .mypic {
@@ -43,25 +51,9 @@ h1 {
     padding: 0 10px 10px 0;
 }
 
-.contact {
-	width: 550px; 
-	background-color: #ffffff;
-	border: 5px solid #dddddd;
-	padding: 25px;
-	margin-left: 50px;
-}
-
 .submit {
 	background-color: #4aaaa5;
 	color: #ffffff;
-}
-
-.portfolio {
-	width: 550px; 
-	background-color: #ffffff;
-	border: 5px solid #dddddd;
-	padding: 25px;
-	margin-left: 50px;
 }
 
 h2 {
@@ -70,11 +62,11 @@ h2 {
 	color: #4aaaa5;
 }
 
-/*https://css-tricks.com/text-blocks-over-image/*/
 .projectlink { 
    position: relative; 
-   width: 100%;
    padding: 10px;
+   float: left;
+   margin: 20px
 }
 
 h4 {
@@ -86,7 +78,7 @@ h4 {
 	padding: 10px;
 	position: absolute; 
     top: 170px; 
-    left: 0; 
+    left: 10; 
     width: 180px;
 }
 
@@ -95,7 +87,8 @@ aside {
 	background-color: #ffffff;
 	padding: 25px; 
 	border: 5px solid #dddddd;
-	float: right;
+	margin-top: 27px;
+	float: left;
 }
 
 h3 {
@@ -110,6 +103,7 @@ h3 {
 }
 
 footer {
+	clear: both;
 	background-color: #666666;
 	font-size: 8px;
 	text-align: center;
@@ -118,7 +112,3 @@ footer {
 	border-top: 5px solid #4aaaa5;
 	margin: 0;
 		}
-
-
-
-
