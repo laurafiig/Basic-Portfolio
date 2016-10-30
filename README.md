@@ -1,2 +1,5 @@
 # Basic-Portfolio
-My portfolio
+
+Homework number 1
+
+My first attempt at a portfolio using only html and basic css commands

@@ -1,13 +1,15 @@
+/*overall body style*/
 body {
 	width: 960px;
 	background-image: url("../images/cork-wallet.png");
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777777
+	color: #777
 	font-size: 12px;
 }
 
+/*header setup*/
 header {
-	background-color: #ffffff;
+	background-color: #fff;
 	height: 77px;
 }
 
@@ -23,7 +25,7 @@ header {
 h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 28px;
-	color: #ffffff
+	color: #fff
 }
 
 .pages {
@@ -36,24 +38,15 @@ h1 {
 	background-color: #4aaaa5; 
 	}
 
+/*general setup for main articles*/
 article {
 	width: 550px; 
-	background-color: #ffffff;
-	border: 5px solid #dddddd;
+	background-color: #fff;
+	border: 5px solid #ddd;
 	padding: 25px;
 	margin: 25px 25px 25px 40px;
 	clear: both;
 	float: left;
-}
-
-.mypic {
-    float: left;
-    padding: 0 10px 10px 0;
-}
-
-.submit {
-	background-color: #4aaaa5;
-	color: #ffffff;
 }
 
 h2 {
@@ -62,6 +55,19 @@ h2 {
 	color: #4aaaa5;
 }
 
+/* flow text around pic in about me*/
+.mypic {
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+/*submit button styling*/
+.submit {
+	background-color: #4aaaa5;
+	color: #fff;
+}
+
+/*text over photo and other styling in portfolio*/
 .projectlink { 
    position: relative; 
    padding: 10px;
@@ -73,7 +79,7 @@ h4 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 16px;
 	background-color: #4aaaa5;
-	color: #ffffff;
+	color: #fff;
     text-align: center;
 	padding: 10px;
 	position: absolute; 
@@ -82,11 +88,12 @@ h4 {
     width: 180px;
 }
 
+/* styling for connect sidebar*/
 aside {
 	width: 220px; 
-	background-color: #ffffff;
+	background-color: #fff;
 	padding: 25px; 
-	border: 5px solid #dddddd;
+	border: 5px solid #ddd;
 	margin-top: 27px;
 	float: left;
 }
@@ -99,16 +106,27 @@ h3 {
 }
 
 .icons {
-	padding: 2px;
+	padding: 10px;
 }
 
+/* styling for footer*/
 footer {
 	clear: both;
-	background-color: #666666;
+	background-color: #666;
 	font-size: 8px;
 	text-align: center;
-	color: #ffffff;
+	color: #fff;
 	padding: 25px 0;
 	border-top: 5px solid #4aaaa5;
 	margin: 0;
 		}
+
+/*sticky footer!!*/
+html, body {
+	height: 100%; 
+	margin: 0; 
+}
+
+.wrapper { 
+	min-height: 100%; 
+	margin-bottom: -60px; }
