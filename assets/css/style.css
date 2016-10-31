@@ -96,6 +96,7 @@ aside {
 	border: 5px solid #ddd;
 	margin-top: 27px;
 	float: left;
+
 }
 
 h3 {
@@ -107,6 +108,7 @@ h3 {
 
 .icons {
 	padding: 10px;
+	display: -webkit-inline-box;
 }
 
 /* styling for footer*/
